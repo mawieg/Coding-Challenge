@@ -6,4 +6,4 @@ author: Martin Wiegand
 last changed: 06.03.2022
 """
 
-# 
+# Now I change a thing.
