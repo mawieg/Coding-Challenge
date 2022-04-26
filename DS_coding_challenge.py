@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-NorCom training exercise
+Data science challenge for a big data analytics firm
 
 This program constructs an ARMA(1,1) time series with 100 periods.  A graphical
 user interface then allows to choose frame size and alphabet size for a SAX 
@@ -8,7 +8,7 @@ representation, and to view the resulting frequency distribution of categories,
 as well as the time series itself. 
 
 author: Martin Wiegand
-last changed: 11.03.2022
+last changed: 26.04.2022
 """
 
 # load packages
@@ -29,7 +29,7 @@ def make_timeseries():
     """Define example time series as ARMA(1,1) process."""
     np.random.seed(12345)
     n = 100 # number of periods
-    ar1 = np.array([1, -0.9]) # AR1 term
+    ar1 = np.array([1, -0.0]) # AR1 term
     ma1 = np.array([1, 0.5]) # MA1 term
     x = pd.Series(ArmaProcess(ar1, ma1).generate_sample(n))
     return x, n
