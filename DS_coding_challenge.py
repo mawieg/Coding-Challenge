@@ -8,7 +8,7 @@ representation, and to view the resulting frequency distribution of categories,
 as well as the time series itself. 
 
 author: Martin Wiegand
-last changed: 11.03.2022
+last changed: 11.03.2022 
 """
 
 # load packages
